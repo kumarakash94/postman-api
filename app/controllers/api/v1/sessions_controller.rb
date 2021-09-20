@@ -47,5 +47,4 @@ class Api::V1::SessionsController < Devise::SessionsController
 			json_response "Invalid Token", false, {}, :not_found
 		end
 	end
-
 end
